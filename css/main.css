@@ -1,0 +1,99 @@
+/* body{
+  background: rgba(238, 238, 238, 0.785);
+} */
+
+#logo{
+  font-family: "Kaushan Script", cursive;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas: "logo logo login"
+                        ".   search ." 
+}
+
+/* footer{
+  /* grid-area: 'ft'; */
+  /* position: absolute;
+  bottom: 0;
+  height: 100px;
+} */
+
+/* .content-wrapper{
+  margin-bottom:100px;/* Height of footer*/
+/* }  */
+
+.mainGrid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cardGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "img date";
+}
+
+.item-a {
+  grid-area: logo;
+}
+
+.main-item {
+  grid-area: col;
+}
+
+.cardGridImg{
+  grid-area: "img"
+}
+
+.cardGridDate{
+  grid-area: "date"
+}
+
+.item-b {
+  grid-area: search;
+  justify-self: center;
+  align-self: center;
+
+}
+.item-c {
+  grid-area: login;
+  justify-self: center;
+  align-self: center;
+}
+
+.padding-items{
+  padding: 10px;
+}
+
+.input-bg {
+  background-color: rgb(34, 130, 194);
+  /* background-color: yellow; */
+}
+
+.item-b input::placeholder{
+  color: white;
+}
+
+.hidden{
+  display: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background: rgb(32,156,238);
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+section{
+  padding: 20px;
+}
+
+table{
+  margin: auto;
+}

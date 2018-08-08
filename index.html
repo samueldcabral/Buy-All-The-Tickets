@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Buy All The Tickets!</title>
+</head>
+<body>
+  <section class="hero is-info content-wrapper sectionOne">
+    <div class="grid hero-body">
+      <div class="item-a">
+        <h1 class="title" id="logo">
+          Buy All The Tickets!
+        </h1>
+        <h2 class="subtitle">
+          Your own ticket finder!
+        </h2>
+      </div>
+      <div class="item-b">
+        <div class="field">
+          <br><br>
+            <p class="control has-icons-right">
+                <input class="input is-rounded input-bg" id="keywordSearch" type="text" placeholder="what are you looking for?" style="min-width: 700px; color:white">
+              <span class="icon is-small is-right">
+                <i class="fas fa-search" id="submit"></i> 
+              </span>
+            </p>
+          </div>
+      </div>
+      <div class="item-c ">
+        <a class="is-outlined is-small padding-items login">Login</a>
+        <a class="is-small padding-items register">Register</a>
+      </div>
+    </div>
+  </section> <!-- NAV BAR-->
+
+
+  <section id="mainSection">
+    <br>
+    <h3 class="sliderHeading is-size-3 ">Top Events of the Week</h3>
+    <div class="slider" style="width:70%; margin:auto">
+    </div>
+
+    <div class="mainGrid" id="main">
+    </div>
+  </section>
+
+  <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+</html>
