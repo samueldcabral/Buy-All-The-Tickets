@@ -1,0 +1,20 @@
+{
+  "title": "Buy All The Tickets",
+  "description": "Site desenvolvido a partir da API da TicketMaster, aonde você pode fazer pesquisa usando Keywords como Artistas ou gênero e retornará os próximos eventos para você comprar, usando o link da Ticketmaster.",
+  "demo": "https://s8.postimg.cc/deml2xjxx/buyall.png",
+  "repository": "https://samueldcabral.github.io/buy-all-the-tickets/",
+  "course": "cstsi",
+  "session": "2018.1",
+  "subject": "ls",
+  "campus": "João Pessoa",
+  "topics": [
+    "js", "Ticketmaster", "events", "life"
+  ],
+  "owners": [
+    {
+      "id": "20172370019",
+      "name": "Samuel Deschamps Cabral",
+      "github": "https://github.com/samueldcabral"
+    }
+  ]
+}
